@@ -1,1 +1,19 @@
-a
+body {
+	background-color: black;
+}
+
+h1 {
+	background-color: blue;
+	color: yellow;
+}
+
+p {
+	background-color: orange;
+	color: green;
+}
+
+li {
+	background-color: green;
+	color: purple;
+a {
+}
