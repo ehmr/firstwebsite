@@ -1,18 +1,22 @@
 body {
+	font-family: Arial;
 	background-color: black;
 }
 
 h1 {
+	font-family: Garamond;
 	background-color: blue;
 	color: yellow;
 }
 
 p {
+	font-family: Tahoma;
 	background-color: orange;
 	color: green;
 }
 
 li {
+	font-family: Impact;
 	background-color: green;
 	color: purple;
 a {
