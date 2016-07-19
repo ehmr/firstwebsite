@@ -1,23 +1,32 @@
+/*main body, duh*/
 body {
-	font-family: Arial;
+	font-family: sans-serif;
 	background-color: black;
 }
-
+/*Sections begin here*/
 h1 {
-	font-family: Garamond;
+	font-family: sans-serif;
 	background-color: blue;
 	color: yellow;
 }
 
 p {
-	font-family: Tahoma;
+	font-family: sans-serif;
 	background-color: orange;
 	color: green;
 }
 
 li {
-	font-family: Impact;
+	font-family: sans-serif;
 	background-color: green;
 	color: purple;
+}
+div{
+	background-color: white;
+	height: 600;
+	width: 480;
+}
+
+
 a {
 }
