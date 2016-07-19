@@ -1,32 +1,41 @@
 /*main body, duh*/
+table {
+	border: 1px solid black;
+	width: 100%;
+}
+
 body {
-	font-family: sans-serif;
+	background-color: #99cc99;
+	font-family: sans-serif, arial;
+}
+
+td {
+	height: 50px;
+	width: 33%
+}
+
+thead {
+	text-align: center;
+	color: yellow;
 	background-color: black;
 }
-/*Sections begin here*/
-h1 {
-	font-family: sans-serif;
-	background-color: blue;
-	color: yellow;
+
+.navbar {	
+	background-color: #606060;
+	text-align: center;
 }
 
-p {
-	font-family: sans-serif;
-	background-color: orange;
-	color: green;
+.main {
+	background-color: #fdd5ca;
+	height: 500px;
 }
 
-li {
-	font-family: sans-serif;
-	background-color: green;
-	color: purple;
-}
-div{
-	background-color: white;
-	height: 600;
-	width: 480;
+.sidebar {
+	background-color: fff8e7;
 }
 
-
-a {
+/* {
+    border: 2px dashed #3A5FCD;
 }
+
+*/
