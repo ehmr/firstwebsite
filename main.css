@@ -9,18 +9,17 @@ h1 {
 	position: relative;
 	left: 20%;
 	width: 58%;
-	background-color: purple;
+	background-color: cyan;
 	padding: 8px;
-	height: 20px;
+	height: 38px;
 }
 
 /* NAVBAR BEGIN */
-#button {
+.button {
 	text-align:center;
 	position: relative;
-	color:blue;
 	display: inline-block;
-	background-color: yellow;
+	background-color: white;
 	border-radius: 5px;
 	padding: 8px;
 	width: 18%;
@@ -42,9 +41,15 @@ h1 {
 	position: relative;
 	left: 20%;
 	width: 58%;
-	background-color: purple;
+	background-color: brown;
 	padding: 8px;
 	height: 20px;
+}
+#blog {
+	background-color:grey;
+	height:90%;
+	position:relative;
+	top:30px;
 }
 
 .pressed{
