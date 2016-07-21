@@ -1,41 +1,59 @@
 /*main body, duh*/
-table {
-	border: 1px solid black;
-	width: 100%;
-}
-
 body {
+	text-align:center;
 	background-color: #99cc99;
 	font-family: sans-serif, arial;
 }
-
-td {
-	height: 50px;
-	width: 33%
+h1 {
+	border-radius: 5px;
+	position: relative;
+	left: 20%;
+	width: 58%;
+	background-color: purple;
+	padding: 8px;
+	height: 20px;
 }
 
-thead {
-	text-align: center;
-	color: yellow;
-	background-color: black;
+/* NAVBAR BEGIN */
+#button {
+	text-align:center;
+	position: relative;
+	color:blue;
+	display: inline-block;
+	background-color: yellow;
+	border-radius: 5px;
+	padding: 8px;
+	width: 18%;
+	height: 20px;
 }
 
-.navbar {	
-	background-color: #606060;
-	text-align: center;
+#body {
+	position: relative;
+	left: 20%;
+	border-radius: 5px;
+	text-align:justify;
+	width: 60%;
+	height: 600px;
+	background-color: green;
 }
 
-.main {
-	background-color: #fdd5ca;
-	height: 500px;
+#foot {
+	border-radius: 5px;
+	position: relative;
+	left: 20%;
+	width: 58%;
+	background-color: purple;
+	padding: 8px;
+	height: 20px;
 }
 
-.sidebar {
-	background-color: fff8e7;
+.pressed{
+	color: red;
+	background-color:green;
 }
+
+/* NAVBAR END */
 
 /* {
     border: 2px dashed #3A5FCD;
 }
-
-*/
